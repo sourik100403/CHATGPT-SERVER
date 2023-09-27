@@ -5,10 +5,10 @@ const path = require('path');
 const OpenAI=require('openai');
 const messages=[]
 // const mySecert = process.env['mySecert']
-const mySecert="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"
+const mySecert="api key here"
 //code for generete openai reply all code
 const openai = new OpenAI({ 
-  apiKey: "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", // defaults to process..env["OPENAI_API_KEY"] });
+  apiKey: "api key here", // defaults to process..env["OPENAI_API_KEY"] });
 })
 async function main(input) {
   messages.push({ role: 'user', content: input })
